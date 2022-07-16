@@ -94,7 +94,7 @@ remove_btn.addEventListener("click", (e) => {
 
 modalCont.addEventListener("keydown", (e) => {
     let key = e.key;
-    if (key === "Home") {
+    if (key === "Enter") {
         createTicket(modalPriorityColor, textareaCont.value);
         setModalToDefault();
         addFlag = false;
